@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 
 const Index = () => {
@@ -7,7 +6,7 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-yellow-50 via-amber-50 to-yellow-100">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-sky-50 to-blue-100">
       {/* Header with Logo */}
       <header className="w-full py-6 px-4">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
@@ -15,17 +14,17 @@ const Index = () => {
             <img 
               src="/lovable-uploads/1f71c1f7-6e22-4f16-9ad0-7d406eb965fd.png" 
               alt="Miss Famous Mavis Logo" 
-              className="w-16 h-16 md:w-20 md:h-20 rounded-full object-cover shadow-lg border-4 border-blue-300"
+              className="w-16 h-16 md:w-20 md:h-20 rounded-full object-cover shadow-lg border-4 border-yellow-300"
             />
             <div className="text-left">
-              <h1 className="text-2xl md:text-4xl font-bold text-yellow-900">It's Miss Famous Mavis</h1>
-              <p className="text-yellow-700 text-sm md:text-base">
+              <h1 className="text-2xl md:text-4xl font-bold text-blue-900">It's Miss Famous Mavis</h1>
+              <p className="text-blue-700 text-sm md:text-base">
                 ...the Digital Twin of{' '}
                 <a 
                   href="https://www.instagram.com/missfamousmavis/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 font-semibold hover:text-blue-800 underline"
+                  className="text-yellow-600 font-semibold hover:text-yellow-800 underline"
                 >
                   @missfamousmavis
                 </a>
@@ -35,7 +34,7 @@ const Index = () => {
           
           <Button 
             onClick={handleChatClick}
-            className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-yellow-900 font-bold px-6 py-3 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300"
+            className="bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-blue-900 font-bold px-6 py-3 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300"
           >
             CHAT NOW
           </Button>
@@ -46,14 +45,14 @@ const Index = () => {
       <main className="max-w-4xl mx-auto px-4 py-8">
         {/* Hero Section */}
         <div className="text-center mb-12">
-          <p className="text-2xl md:text-3xl font-bold text-yellow-800 max-w-2xl mx-auto">
+          <p className="text-2xl md:text-3xl font-bold text-blue-800 max-w-2xl mx-auto">
             Chat with the digital twin of Instagram's most famous and beloved Australian Shepherd, Miss Famous Mavis!
           </p>
         </div>
 
         {/* Video Section */}
         <div className="mb-12">
-          <div className="bg-white rounded-xl shadow-xl p-6 md:p-8 border border-blue-200">
+          <div className="bg-white rounded-xl shadow-xl p-6 md:p-8 border border-yellow-200">
             <div className="w-full max-w-md mx-auto" style={{ aspectRatio: '16/9', maxHeight: '300px' }}>
               <iframe
                 src="https://drive.google.com/file/d/1nl54lu3eb1oc2B_TrMdQSoIuZbA6JRpE/preview"
@@ -69,26 +68,26 @@ const Index = () => {
 
         {/* Chat Section */}
         <div className="text-center">
-          <div className="bg-white rounded-xl shadow-xl p-8 md:p-12 border border-blue-200">
-            <h3 className="text-2xl md:text-3xl font-bold text-yellow-900 mb-6">
+          <div className="bg-white rounded-xl shadow-xl p-8 md:p-12 border border-yellow-200">
+            <h3 className="text-2xl md:text-3xl font-bold text-blue-900 mb-6">
               Ready to Chat?
             </h3>
-            <p className="text-yellow-700 mb-8 text-lg">
+            <p className="text-blue-700 mb-8 text-lg">
               Experience the personality and charm of Miss Famous Mavis through AI conversation!
             </p>
             
             {/* Royal Image as Chat Button */}
             <div className="mb-8">
               <img 
-                src="/lovable-uploads/53195ae1-25d3-41f5-802f-32398e944004.png" 
+                src="/lovable-uploads/87e3fedd-f89a-4d03-94ff-5c23dd50c13e.png" 
                 alt="Miss Famous Mavis on her throne" 
-                className="w-full max-w-md mx-auto rounded-lg shadow-lg"
+                className="w-full max-w-md mx-auto rounded-2xl shadow-lg"
               />
             </div>
 
             <Button 
               onClick={handleChatClick}
-              className="bg-gradient-to-r from-blue-400 to-blue-500 hover:from-blue-500 hover:to-blue-600 text-yellow-900 text-xl px-12 py-6 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300"
+              className="bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-blue-900 text-xl px-12 py-6 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300"
             >
               🐕 CHAT WITH MISS MAVIS 🐕
             </Button>
@@ -97,14 +96,14 @@ const Index = () => {
 
         {/* Footer */}
         <footer className="mt-16 text-center">
-          <div className="bg-white/60 rounded-lg p-6 border border-blue-200">
-            <p className="text-yellow-700">
+          <div className="bg-white/60 rounded-lg p-6 border border-yellow-200">
+            <p className="text-blue-700">
               Follow the real Miss Famous Mavis on Instagram: 
               <a 
                 href="https://instagram.com/missfamousmavis" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-blue-600 font-semibold hover:text-blue-800 ml-2 underline"
+                className="text-yellow-600 font-semibold hover:text-yellow-800 ml-2 underline"
               >
                 @missfamousmavis
               </a>
