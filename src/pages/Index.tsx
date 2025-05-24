@@ -10,14 +10,14 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-red-50">
       {/* Header with Logo */}
       <header className="w-full py-6 px-4">
-        <div className="max-w-6xl mx-auto flex justify-center">
+        <div className="max-w-6xl mx-auto flex justify-between items-center">
           <div className="flex items-center space-x-4">
             <img 
               src="/lovable-uploads/1f71c1f7-6e22-4f16-9ad0-7d406eb965fd.png" 
               alt="Miss Famous Mavis Logo" 
               className="w-16 h-16 md:w-20 md:h-20 rounded-full object-cover shadow-lg border-4 border-amber-200"
             />
-            <div className="text-center">
+            <div className="text-left">
               <h1 className="text-2xl md:text-4xl font-bold text-amber-900">It's Miss Famous Mavis</h1>
               <p className="text-amber-700 text-sm md:text-base">
                 ...the Digital Twin of{' '}
@@ -32,6 +32,13 @@ const Index = () => {
               </p>
             </div>
           </div>
+          
+          <Button 
+            onClick={handleChatClick}
+            className="bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white font-bold px-6 py-3 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300"
+          >
+            CHAT NOW
+          </Button>
         </div>
       </header>
 
