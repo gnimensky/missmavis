@@ -1,5 +1,3 @@
-
-
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
 
@@ -29,7 +27,7 @@ const Index = () => {
               <p className="text-yellow-700 text-base md:text-lg">
                 ..the Digital Twin of{' '}
                 <a 
-                  href="https://www.instagram.com/missfamousmavis/"
+                  href="https://www.instagram.com/missfamousmavis/",
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-amber-600 font-medium hover:text-amber-800 underline"
@@ -83,9 +81,10 @@ const Index = () => {
             <h3 className="text-2xl md:text-3xl font-medium text-yellow-900 mb-6">
               Ready to Chat?
             </h3>
-            <p className="text-yellow-700 mb-8 text-lg">
-              Experience the personality and charm of Miss Famous Mavis through AI conversation!
-            </p>
+            <div className="text-yellow-700 mb-8 text-lg">
+              <div>Experience the personality and charm of Miss Famous Mavis</div>
+              <div>through AI conversation!</div>
+            </div>
             
             <div className="mb-8 flex flex-col md:flex-row justify-center items-center gap-4 md:gap-6">
               <img 
@@ -139,4 +138,3 @@ const Index = () => {
 };
 
 export default Index;
-
