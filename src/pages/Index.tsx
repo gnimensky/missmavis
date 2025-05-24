@@ -84,17 +84,17 @@ const Index = () => {
               <img 
                 src={images[0]}
                 alt="Miss Famous Mavis" 
-                className="w-40 h-40 md:w-48 md:h-48 rounded-2xl shadow-lg object-cover transform rotate-[-5deg] hover:rotate-0 transition-transform duration-300"
+                className="w-40 h-48 md:w-48 md:h-58 rounded-2xl shadow-lg object-cover transform rotate-[-5deg] hover:rotate-0 transition-transform duration-300"
               />
               <img 
                 src={images[1]}
                 alt="Miss Famous Mavis" 
-                className="w-44 h-44 md:w-52 md:h-52 rounded-2xl shadow-xl object-cover z-10 hover:scale-105 transition-transform duration-300"
+                className="w-44 h-52 md:w-52 md:h-62 rounded-2xl shadow-xl object-cover z-10 hover:scale-105 transition-transform duration-300"
               />
               <img 
                 src={images[2]}
                 alt="Miss Famous Mavis" 
-                className="w-40 h-40 md:w-48 md:h-48 rounded-2xl shadow-lg object-cover transform rotate-[5deg] hover:rotate-0 transition-transform duration-300"
+                className="w-40 h-48 md:w-48 md:h-58 rounded-2xl shadow-lg object-cover transform rotate-[5deg] hover:rotate-0 transition-transform duration-300"
               />
             </div>
 
