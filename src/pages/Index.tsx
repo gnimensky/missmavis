@@ -7,7 +7,7 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-red-50">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
       {/* Header with Logo */}
       <header className="w-full py-6 px-4">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
@@ -15,17 +15,17 @@ const Index = () => {
             <img 
               src="/lovable-uploads/1f71c1f7-6e22-4f16-9ad0-7d406eb965fd.png" 
               alt="Miss Famous Mavis Logo" 
-              className="w-16 h-16 md:w-20 md:h-20 rounded-full object-cover shadow-lg border-4 border-amber-200"
+              className="w-16 h-16 md:w-20 md:h-20 rounded-full object-cover shadow-lg border-4 border-blue-200"
             />
             <div className="text-left">
-              <h1 className="text-2xl md:text-4xl font-bold text-amber-900">It's Miss Famous Mavis</h1>
-              <p className="text-amber-700 text-sm md:text-base">
+              <h1 className="text-2xl md:text-4xl font-bold text-slate-800">It's Miss Famous Mavis</h1>
+              <p className="text-slate-600 text-sm md:text-base">
                 ...the Digital Twin of{' '}
                 <a 
                   href="https://www.instagram.com/missfamousmavis/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-amber-900 font-semibold hover:text-orange-700 underline"
+                  className="text-blue-600 font-semibold hover:text-blue-800 underline"
                 >
                   @missfamousmavis
                 </a>
@@ -35,7 +35,7 @@ const Index = () => {
           
           <Button 
             onClick={handleChatClick}
-            className="bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white font-bold px-6 py-3 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300"
+            className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold px-6 py-3 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300"
           >
             CHAT NOW
           </Button>
@@ -46,14 +46,14 @@ const Index = () => {
       <main className="max-w-4xl mx-auto px-4 py-8">
         {/* Hero Section */}
         <div className="text-center mb-12">
-          <p className="text-2xl md:text-3xl font-bold text-amber-800 max-w-2xl mx-auto">
+          <p className="text-2xl md:text-3xl font-bold text-slate-700 max-w-2xl mx-auto">
             Chat with the digital twin of Instagram's most famous and beloved Australian Shepherd, Miss Famous Mavis!
           </p>
         </div>
 
         {/* Video Section */}
         <div className="mb-12">
-          <div className="bg-white rounded-xl shadow-xl p-6 md:p-8">
+          <div className="bg-white rounded-xl shadow-xl p-6 md:p-8 border border-slate-100">
             <div className="w-full max-w-md mx-auto" style={{ aspectRatio: '16/9', maxHeight: '300px' }}>
               <iframe
                 src="https://drive.google.com/file/d/1nl54lu3eb1oc2B_TrMdQSoIuZbA6JRpE/preview"
@@ -69,11 +69,11 @@ const Index = () => {
 
         {/* Chat Section */}
         <div className="text-center">
-          <div className="bg-white rounded-xl shadow-xl p-8 md:p-12">
-            <h3 className="text-2xl md:text-3xl font-bold text-amber-900 mb-6">
+          <div className="bg-white rounded-xl shadow-xl p-8 md:p-12 border border-slate-100">
+            <h3 className="text-2xl md:text-3xl font-bold text-slate-800 mb-6">
               Ready to Chat?
             </h3>
-            <p className="text-amber-800 mb-8 text-lg">
+            <p className="text-slate-600 mb-8 text-lg">
               Experience the personality and charm of Miss Famous Mavis through AI conversation!
             </p>
             
@@ -88,7 +88,7 @@ const Index = () => {
 
             <Button 
               onClick={handleChatClick}
-              className="bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white text-xl px-12 py-6 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300"
+              className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white text-xl px-12 py-6 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300"
             >
               🐕 CHAT WITH MISS MAVIS 🐕
             </Button>
@@ -97,14 +97,14 @@ const Index = () => {
 
         {/* Footer */}
         <footer className="mt-16 text-center">
-          <div className="bg-white/50 rounded-lg p-6">
-            <p className="text-amber-800">
+          <div className="bg-white/60 rounded-lg p-6 border border-slate-100">
+            <p className="text-slate-600">
               Follow the real Miss Famous Mavis on Instagram: 
               <a 
                 href="https://instagram.com/missfamousmavis" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-amber-900 font-semibold hover:text-orange-700 ml-2 underline"
+                className="text-blue-600 font-semibold hover:text-blue-800 ml-2 underline"
               >
                 @missfamousmavis
               </a>
