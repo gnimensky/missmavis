@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 
 const Index = () => {
@@ -75,7 +76,7 @@ const Index = () => {
             
             <div className="mb-8">
               <img 
-                src="/lovable-uploads/aee1bed1-dbeb-4738-ac4f-e212e185f2c5.png" 
+                src="/lovable-uploads/87d4c2e1-2325-4e6e-9dad-756572cdaa28.png" 
                 alt="Miss Famous Mavis on her throne" 
                 className="w-full max-w-md mx-auto rounded-2xl shadow-lg"
               />
