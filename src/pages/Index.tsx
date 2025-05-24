@@ -19,7 +19,7 @@ const Index = () => {
             />
             <div className="text-center">
               <h1 className="text-2xl md:text-4xl font-bold text-amber-900">It's Miss Famous Mavis</h1>
-              <p className="text-amber-700 text-sm md:text-base">Digital Twin of @missfamousmavis</p>
+              <p className="text-amber-700 text-sm md:text-base">...the Digital Twin of @missfamousmavis</p>
             </div>
           </div>
         </div>
