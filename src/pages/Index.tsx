@@ -110,7 +110,7 @@ const Index = () => {
               </a>
             </p>
           </div>
-        </div>
+        </footer>
       </main>
     </div>
   );
