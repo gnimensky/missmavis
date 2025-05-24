@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 
 const Index = () => {
@@ -39,10 +38,7 @@ const Index = () => {
       <main className="max-w-4xl mx-auto px-4 py-8">
         {/* Hero Section */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-5xl font-bold text-amber-900 mb-4">
-            Meet Your AI Companion
-          </h2>
-          <p className="text-lg md:text-xl text-amber-800 max-w-2xl mx-auto">
+          <p className="text-2xl md:text-3xl text-amber-800 max-w-2xl mx-auto">
             Chat with the digital twin of Instagram's most famous and beloved Australian Shepherd, Miss Famous Mavis!
           </p>
         </div>
