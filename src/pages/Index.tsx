@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
 
@@ -108,22 +107,19 @@ const Index = () => {
 
         <footer className="mt-16 text-center">
           <div className="bg-white/60 rounded-lg p-6 border border-blue-200">
-            <div className="flex items-center justify-center space-x-3">
-              <img 
-                src="/lovable-uploads/1f71c1f7-6e22-4f16-9ad0-7d406eb965fd.png" 
-                alt="Miss Famous Mavis Logo" 
-                className="w-8 h-8 rounded-full object-cover shadow-sm border-2 border-blue-300"
-              />
+            <div className="flex flex-col items-center justify-center space-y-2">
+              <div className="flex items-center space-x-3">
+                <img 
+                  src="/lovable-uploads/1f71c1f7-6e22-4f16-9ad0-7d406eb965fd.png" 
+                  alt="Miss Famous Mavis Logo" 
+                  className="w-8 h-8 rounded-full object-cover shadow-sm border-2 border-blue-300"
+                />
+                <p className="text-yellow-700 font-medium">
+                  © 2025 Miss Famous Mavis | The Digital Twin Experience
+                </p>
+              </div>
               <p className="text-yellow-700">
-                Follow the real Miss Famous Mavis on Instagram: 
-                <a 
-                  href="https://instagram.com/missfamousmavis" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-blue-600 font-semibold hover:text-blue-800 ml-2 underline"
-                >
-                  @missfamousmavis
-                </a>
+                aimavis.com All rights reserved
               </p>
             </div>
           </div>
