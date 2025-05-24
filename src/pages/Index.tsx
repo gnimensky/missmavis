@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
 
@@ -12,16 +11,6 @@ const Index = () => {
     "/lovable-uploads/6bc31d71-48bf-41b9-b3a8-250e7159190f.png",
     "/lovable-uploads/2af7c8e6-61de-4dad-9103-c9e7dca6645a.png"
   ];
-
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 6000); // Change image every 6 seconds
-
-    return () => clearInterval(interval);
-  }, [images.length]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-yellow-50 via-amber-50 to-yellow-100">
@@ -91,12 +80,21 @@ const Index = () => {
               Experience the personality and charm of Miss Famous Mavis through AI conversation!
             </p>
             
-            <div className="mb-8 relative">
+            <div className="mb-8 flex flex-col md:flex-row justify-center items-center gap-4 md:gap-6">
               <img 
-                src={images[currentImageIndex]}
+                src={images[0]}
                 alt="Miss Famous Mavis" 
-                className="w-full max-w-md mx-auto rounded-2xl shadow-lg transition-all duration-[2000ms] ease-in-out"
-                key={currentImageIndex}
+                className="w-40 h-40 md:w-48 md:h-48 rounded-2xl shadow-lg object-cover transform rotate-[-5deg] hover:rotate-0 transition-transform duration-300"
+              />
+              <img 
+                src={images[1]}
+                alt="Miss Famous Mavis" 
+                className="w-44 h-44 md:w-52 md:h-52 rounded-2xl shadow-xl object-cover z-10 hover:scale-105 transition-transform duration-300"
+              />
+              <img 
+                src={images[2]}
+                alt="Miss Famous Mavis" 
+                className="w-40 h-40 md:w-48 md:h-48 rounded-2xl shadow-lg object-cover transform rotate-[5deg] hover:rotate-0 transition-transform duration-300"
               />
             </div>
 
