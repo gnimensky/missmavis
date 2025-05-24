@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
 
@@ -59,7 +60,7 @@ const Index = () => {
         </div>
 
         <div className="mb-12">
-          <div className="bg-white rounded-xl shadow-xl p-6 md:p-8 border border-yellow-200">
+          <div className="bg-gradient-to-r from-yellow-200 via-amber-200 to-yellow-200 rounded-xl shadow-xl p-6 md:p-8 border-2 border-yellow-300">
             <div className="w-full max-w-md mx-auto" style={{ aspectRatio: '16/9', maxHeight: '300px' }}>
               <iframe
                 src="https://drive.google.com/file/d/1nl54lu3eb1oc2B_TrMdQSoIuZbA6JRpE/preview"
@@ -74,7 +75,7 @@ const Index = () => {
         </div>
 
         <div className="text-center">
-          <div className="bg-white rounded-xl shadow-xl p-8 md:p-12 border border-yellow-200">
+          <div className="bg-gradient-to-r from-yellow-200 via-amber-200 to-yellow-200 rounded-xl shadow-xl p-8 md:p-12 border-2 border-yellow-300">
             <h3 className="text-2xl md:text-3xl font-medium text-yellow-900 mb-6">
               Ready to Chat?
             </h3>
