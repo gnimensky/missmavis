@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
 
@@ -14,7 +15,6 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-yellow-50 via-amber-50 to-yellow-100">
-      
       <header className="w-full py-6 px-4">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
           <div className="flex items-center space-x-4">
@@ -28,7 +28,7 @@ const Index = () => {
               <p className="text-yellow-700 text-sm md:text-base">
                 ...the Digital Twin of{' '}
                 <a 
-                  href="https://www.instagram.com/missfamousmavis/",
+                  href="https://www.instagram.com/missfamousmavis/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-600 font-semibold hover:text-blue-800 underline"
@@ -48,7 +48,6 @@ const Index = () => {
         </div>
       </header>
 
-      
       <main className="max-w-4xl mx-auto px-4 py-8">
         <div className="text-center mb-12">
           <p className="text-2xl md:text-3xl font-bold text-yellow-800 max-w-2xl mx-auto">
@@ -107,7 +106,6 @@ const Index = () => {
           </div>
         </div>
 
-        {/* Footer */}
         <footer className="mt-16 text-center">
           <div className="bg-white/60 rounded-lg p-6 border border-blue-200">
             <div className="flex items-center justify-center space-x-3">
