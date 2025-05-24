@@ -51,11 +51,9 @@ const Index = () => {
       <main className="max-w-4xl mx-auto px-4 py-8">
         <div className="text-center mb-12">
           <div className="inline-block bg-gradient-to-r from-yellow-200 via-amber-200 to-yellow-200 px-12 py-6 rounded-full shadow-lg border-2 border-yellow-300 max-w-3xl mx-auto">
-            <div className="text-2xl md:text-3xl font-medium text-yellow-900 leading-tight">
-              <div>Chat with the digital twin of</div>
-              <div>Instagram's most beloved Australian Shepherd,</div>
-              <div>Miss Famous Mavis!</div>
-            </div>
+            <p className="text-2xl md:text-3xl font-medium text-yellow-900">
+              Chat with the digital twin of Instagram's most beloved Australian Shepherd, Miss Famous Mavis!
+            </p>
           </div>
         </div>
 
