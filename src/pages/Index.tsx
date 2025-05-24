@@ -47,7 +47,7 @@ const Index = () => {
         {/* Video Section */}
         <div className="mb-12">
           <div className="bg-white rounded-xl shadow-xl p-6 md:p-8">
-            <div className="aspect-video w-full max-w-2xl mx-auto">
+            <div className="w-full max-w-md mx-auto" style={{ aspectRatio: '16/9', maxHeight: '300px' }}>
               <iframe
                 src="https://drive.google.com/file/d/1nl54lu3eb1oc2B_TrMdQSoIuZbA6JRpE/preview"
                 width="100%"
