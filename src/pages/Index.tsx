@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
 
@@ -24,7 +23,7 @@ const Index = () => {
               className="w-16 h-16 md:w-20 md:h-20 rounded-full object-cover shadow-lg border-4 border-yellow-300"
             />
             <div className="text-left">
-              <h1 className="text-2xl md:text-4xl font-semibold text-yellow-900">It's Miss Famous Mavis</h1>
+              <h1 className="text-2xl md:text-4xl font-semibold text-yellow-900">It's.. Miss Famous Mavis</h1>
               <p className="text-yellow-700 text-sm md:text-base">
                 ...the Digital Twin of{' '}
                 <a 
