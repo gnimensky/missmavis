@@ -47,31 +47,15 @@ const Index = () => {
         {/* Video Section */}
         <div className="mb-12">
           <div className="bg-white rounded-xl shadow-xl p-6 md:p-8">
-            <div className="flex items-center justify-center gap-8 max-w-4xl mx-auto">
-              {/* Animated Image */}
-              <div className="flex-shrink-0">
-                <img 
-                  src="/lovable-uploads/aee1bed1-dbeb-4738-ac4f-e212e185f2c5.png" 
-                  alt="Miss Famous Mavis" 
-                  className="w-48 h-48 md:w-64 md:h-64 rounded-2xl object-cover shadow-lg animate-bounce"
-                  style={{
-                    animationDuration: '3s',
-                    animationTimingFunction: 'ease-in-out',
-                  }}
-                />
-              </div>
-              
-              {/* Video Container - 30% smaller */}
-              <div className="aspect-video w-full max-w-2xl">
-                <iframe
-                  src="https://drive.google.com/file/d/1nl54lu3eb1oc2B_TrMdQSoIuZbA6JRpE/preview"
-                  width="100%"
-                  height="100%"
-                  className="rounded-lg"
-                  allow="autoplay"
-                  title="Miss Famous Mavis Video"
-                ></iframe>
-              </div>
+            <div className="aspect-video w-full max-w-3xl mx-auto">
+              <iframe
+                src="https://drive.google.com/file/d/1nl54lu3eb1oc2B_TrMdQSoIuZbA6JRpE/preview"
+                width="100%"
+                height="100%"
+                className="rounded-lg"
+                allow="autoplay"
+                title="Miss Famous Mavis Video"
+              ></iframe>
             </div>
           </div>
         </div>
