@@ -1,10 +1,27 @@
 
 import { Button } from "@/components/ui/button";
+import { useState, useEffect } from "react";
 
 const Index = () => {
   const handleChatClick = () => {
     window.open('https://character.ai/chat/KWcE1ddvQ3hW58l2Ep5-rDsGz65x1kkaAn2dZiYGrdM', '_blank');
   };
+
+  const images = [
+    "/lovable-uploads/87d4c2e1-2325-4e6e-9dad-756572cdaa28.png",
+    "/lovable-uploads/bce9b7e7-80b7-4aeb-b44d-da5e0dde6102.png",
+    "/lovable-uploads/38089d49-a32a-4a75-a7dc-cc049b5fd26e.png"
+  ];
+
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 3000); // Change image every 3 seconds
+
+    return () => clearInterval(interval);
+  }, [images.length]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-yellow-50 via-amber-50 to-yellow-100">
@@ -74,11 +91,12 @@ const Index = () => {
               Experience the personality and charm of Miss Famous Mavis through AI conversation!
             </p>
             
-            <div className="mb-8">
+            <div className="mb-8 relative">
               <img 
-                src="/lovable-uploads/87d4c2e1-2325-4e6e-9dad-756572cdaa28.png" 
-                alt="Miss Famous Mavis on her throne" 
-                className="w-full max-w-md mx-auto rounded-2xl shadow-lg"
+                src={images[currentImageIndex]}
+                alt="Miss Famous Mavis" 
+                className="w-full max-w-md mx-auto rounded-2xl shadow-lg transition-opacity duration-1000 ease-in-out"
+                key={currentImageIndex}
               />
             </div>
 
