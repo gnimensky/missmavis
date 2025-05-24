@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
 
@@ -50,9 +49,11 @@ const Index = () => {
 
       <main className="max-w-4xl mx-auto px-4 py-8">
         <div className="text-center mb-12">
-          <p className="text-2xl md:text-3xl font-bold text-yellow-800 max-w-2xl mx-auto">
-            Chat with the digital twin of Instagram's most famous and beloved Australian Shepherd, Miss Famous Mavis!
-          </p>
+          <div className="inline-block bg-gradient-to-r from-yellow-200 via-amber-200 to-yellow-200 px-12 py-6 rounded-full shadow-lg border-2 border-yellow-300 max-w-3xl mx-auto">
+            <p className="text-2xl md:text-3xl font-bold text-yellow-900">
+              Chat with the digital twin of Instagram's most beloved Australian Shepherd, Miss Famous Mavis!
+            </p>
+          </div>
         </div>
 
         <div className="mb-12">
