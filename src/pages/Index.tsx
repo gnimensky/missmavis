@@ -8,8 +8,8 @@ const Index = () => {
 
   const images = [
     "/lovable-uploads/f1f1e57c-695b-4dcb-868f-784ca23e7c78.png",
-    "/lovable-uploads/2af7c8e6-61de-4dad-9103-c9e7dca6645a.png",
-    "/lovable-uploads/6bc31d71-48bf-41b9-b3a8-250e7159190f.png"
+    "/lovable-uploads/6bc31d71-48bf-41b9-b3a8-250e7159190f.png",
+    "/lovable-uploads/2af7c8e6-61de-4dad-9103-c9e7dca6645a.png"
   ];
 
   return (
@@ -87,12 +87,12 @@ const Index = () => {
                 className="w-40 h-48 md:w-48 md:h-58 rounded-2xl shadow-lg object-cover object-top transform rotate-[-5deg] hover:rotate-0 transition-transform duration-300"
               />
               <img 
-                src={images[2]}
+                src={images[1]}
                 alt="Miss Famous Mavis" 
                 className="w-44 h-52 md:w-52 md:h-62 rounded-2xl shadow-xl object-cover object-top z-10 hover:scale-105 transition-transform duration-300"
               />
               <img 
-                src={images[1]}
+                src={images[2]}
                 alt="Miss Famous Mavis" 
                 className="w-40 h-48 md:w-48 md:h-58 rounded-2xl shadow-lg object-cover object-top transform rotate-[5deg] hover:rotate-0 transition-transform duration-300"
               />
