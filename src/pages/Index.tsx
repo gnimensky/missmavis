@@ -8,9 +8,9 @@ const Index = () => {
   };
 
   const images = [
-    "/lovable-uploads/87d4c2e1-2325-4e6e-9dad-756572cdaa28.png",
-    "/lovable-uploads/bce9b7e7-80b7-4aeb-b44d-da5e0dde6102.png",
-    "/lovable-uploads/38089d49-a32a-4a75-a7dc-cc049b5fd26e.png"
+    "/lovable-uploads/f1f1e57c-695b-4dcb-868f-784ca23e7c78.png",
+    "/lovable-uploads/6bc31d71-48bf-41b9-b3a8-250e7159190f.png",
+    "/lovable-uploads/2af7c8e6-61de-4dad-9103-c9e7dca6645a.png"
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -18,7 +18,7 @@ const Index = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 3000); // Change image every 3 seconds
+    }, 6000); // Change image every 6 seconds
 
     return () => clearInterval(interval);
   }, [images.length]);
@@ -95,7 +95,7 @@ const Index = () => {
               <img 
                 src={images[currentImageIndex]}
                 alt="Miss Famous Mavis" 
-                className="w-full max-w-md mx-auto rounded-2xl shadow-lg transition-opacity duration-1000 ease-in-out"
+                className="w-full max-w-md mx-auto rounded-2xl shadow-lg transition-all duration-[2000ms] ease-in-out"
                 key={currentImageIndex}
               />
             </div>
