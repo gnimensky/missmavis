@@ -53,7 +53,7 @@ const Index = () => {
             <div className="text-xl md:text-2xl font-medium text-yellow-900 leading-tight">
               <div>Chat with the digital twin of</div>
               <div>Instagram's most beloved Australian Shepherd,</div>
-              <div>Miss Famous Mavis!</div>
+              <div><strong>Miss Famous Mavis!</strong></div>
             </div>
           </div>
         </div>
