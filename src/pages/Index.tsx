@@ -112,7 +112,7 @@ const Index = () => {
                 <img 
                   src="/lovable-uploads/1f71c1f7-6e22-4f16-9ad0-7d406eb965fd.png" 
                   alt="Miss Famous Mavis Logo" 
-                  className="w-8 h-8 rounded-full object-cover shadow-sm border-2 border-blue-300"
+                  className="w-12 h-12 rounded-full object-cover shadow-sm border-2 border-blue-300"
                 />
                 <p className="text-yellow-700 font-medium">
                   © 2025 Miss Famous Mavis | The Digital Twin Experience
