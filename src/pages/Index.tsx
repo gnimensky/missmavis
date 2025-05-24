@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
 
@@ -24,7 +25,7 @@ const Index = () => {
             />
             <div className="text-left">
               <h1 className="text-2xl md:text-4xl font-semibold text-yellow-900">It's.. Miss Famous Mavis</h1>
-              <p className="text-yellow-700 text-sm md:text-base">
+              <p className="text-yellow-700 text-base md:text-lg">
                 ..the Digital Twin of{' '}
                 <a 
                   href="https://www.instagram.com/missfamousmavis/"
