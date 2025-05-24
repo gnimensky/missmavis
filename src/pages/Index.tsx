@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
 
@@ -70,6 +69,9 @@ const Index = () => {
                 allow="autoplay"
                 title="Miss Famous Mavis Video"
               ></iframe>
+            </div>
+            <div className="text-center mt-4">
+              <p className="text-yellow-900 text-lg md:text-xl font-bold">Miss Mavis Says Hello!</p>
             </div>
           </div>
         </div>
