@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
 
@@ -13,7 +14,7 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-100 via-blue-200 to-blue-300">
+    <div className="min-h-screen bg-gradient-to-br from-blue-100 via-blue-200 to-blue-300 font-poppins">
       <header className="w-full py-6 px-4">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
           <div className="flex items-center space-x-4">
@@ -23,14 +24,14 @@ const Index = () => {
               className="w-16 h-16 md:w-20 md:h-20 rounded-full object-cover shadow-lg border-4 border-yellow-300"
             />
             <div className="text-left">
-              <h1 className="text-2xl md:text-4xl font-bold text-yellow-900">It's Miss Famous Mavis</h1>
+              <h1 className="text-2xl md:text-4xl font-semibold text-yellow-900">It's Miss Famous Mavis</h1>
               <p className="text-yellow-700 text-sm md:text-base">
                 ...the Digital Twin of{' '}
                 <a 
                   href="https://www.instagram.com/missfamousmavis/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-amber-600 font-semibold hover:text-amber-800 underline"
+                  className="text-amber-600 font-medium hover:text-amber-800 underline"
                 >
                   @missfamousmavis
                 </a>
@@ -40,7 +41,7 @@ const Index = () => {
           
           <Button 
             onClick={handleChatClick}
-            className="bg-gradient-to-r from-yellow-200 to-amber-300 hover:from-yellow-300 hover:to-amber-400 text-yellow-900 font-bold px-6 py-3 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300"
+            className="bg-gradient-to-r from-yellow-200 to-amber-300 hover:from-yellow-300 hover:to-amber-400 text-yellow-900 font-medium px-6 py-3 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300"
           >
             CHAT NOW
           </Button>
@@ -50,7 +51,7 @@ const Index = () => {
       <main className="max-w-4xl mx-auto px-4 py-8">
         <div className="text-center mb-12">
           <div className="inline-block bg-gradient-to-r from-yellow-200 via-amber-200 to-yellow-200 px-12 py-6 rounded-full shadow-lg border-2 border-yellow-300 max-w-3xl mx-auto">
-            <p className="text-2xl md:text-3xl font-bold text-yellow-900">
+            <p className="text-2xl md:text-3xl font-medium text-yellow-900">
               Chat with the digital twin of Instagram's most beloved Australian Shepherd, Miss Famous Mavis!
             </p>
           </div>
@@ -73,7 +74,7 @@ const Index = () => {
 
         <div className="text-center">
           <div className="bg-white rounded-xl shadow-xl p-8 md:p-12 border border-yellow-200">
-            <h3 className="text-2xl md:text-3xl font-bold text-yellow-900 mb-6">
+            <h3 className="text-2xl md:text-3xl font-medium text-yellow-900 mb-6">
               Ready to Chat?
             </h3>
             <p className="text-yellow-700 mb-8 text-lg">
@@ -100,7 +101,7 @@ const Index = () => {
 
             <Button 
               onClick={handleChatClick}
-              className="bg-gradient-to-r from-yellow-200 to-amber-300 hover:from-yellow-300 hover:to-amber-400 text-yellow-900 text-xl px-12 py-6 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300"
+              className="bg-gradient-to-r from-yellow-200 to-amber-300 hover:from-yellow-300 hover:to-amber-400 text-yellow-900 text-xl font-medium px-12 py-6 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300"
             >
               🐕 CHAT WITH MISS MAVIS 🐕
             </Button>
