@@ -28,7 +28,7 @@ const Index = () => {
               <p className="text-yellow-700 text-sm md:text-base">
                 ...the Digital Twin of{' '}
                 <a 
-                  href="https://www.instagram.com/missfamousmavis/"
+                  href="https://www.instagram.com/missfamousmavis/",
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-600 font-semibold hover:text-blue-800 underline"
@@ -87,12 +87,12 @@ const Index = () => {
                 className="w-40 h-48 md:w-48 md:h-58 rounded-2xl shadow-lg object-cover object-top transform rotate-[-5deg] hover:rotate-0 transition-transform duration-300"
               />
               <img 
-                src={images[1]}
+                src={images[2]}
                 alt="Miss Famous Mavis" 
                 className="w-44 h-52 md:w-52 md:h-62 rounded-2xl shadow-xl object-cover object-top z-10 hover:scale-105 transition-transform duration-300"
               />
               <img 
-                src={images[2]}
+                src={images[1]}
                 alt="Miss Famous Mavis" 
                 className="w-40 h-48 md:w-48 md:h-58 rounded-2xl shadow-lg object-cover object-top transform rotate-[5deg] hover:rotate-0 transition-transform duration-300"
               />
