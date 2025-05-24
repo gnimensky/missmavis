@@ -1,4 +1,5 @@
 
+
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
 
@@ -52,8 +53,8 @@ const Index = () => {
         <div className="text-center mb-12">
           <div className="inline-block bg-gradient-to-r from-yellow-200 via-amber-200 to-yellow-200 px-12 py-6 rounded-full shadow-lg border-2 border-yellow-300 max-w-3xl mx-auto">
             <div className="text-xl md:text-2xl font-medium text-yellow-900 leading-tight">
-              <div>Chat with the digital twin of</div>
-              <div>Instagram's most beloved Australian Shepherd,</div>
+              <div>Chat with the digital twin of Instagram's</div>
+              <div>most beloved Australian Shepherd,</div>
               <div><strong>Miss Famous Mavis!</strong></div>
             </div>
           </div>
@@ -138,3 +139,4 @@ const Index = () => {
 };
 
 export default Index;
+
