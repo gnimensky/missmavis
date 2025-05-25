@@ -1,5 +1,3 @@
-
-
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
 
@@ -15,7 +13,7 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-100 via-blue-200 to-blue-300 font-poppins">
+    <div className="min-h-screen bg-gradient-to-br from-purple-100 via-purple-200 to-purple-300 font-poppins">
       <header className="w-full py-6 px-4">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
           <div className="flex items-center space-x-4">
@@ -140,4 +138,3 @@ const Index = () => {
 };
 
 export default Index;
-
