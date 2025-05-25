@@ -1,4 +1,5 @@
 
+
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
 
@@ -21,7 +22,7 @@ const Index = () => {
             <img 
               src="/lovable-uploads/1f71c1f7-6e22-4f16-9ad0-7d406eb965fd.png" 
               alt="Miss Famous Mavis Logo" 
-              className="w-16 h-16 md:w-20 md:h-20 rounded-full object-cover shadow-lg border-4 border-yellow-300"
+              className="w-16 h-16 md:w-20 md:h-20 rounded-full object-cover shadow-lg border-4 border-yellow-300 bg-white"
             />
             <div className="text-left">
               <h1 className="text-2xl md:text-4xl font-semibold text-yellow-900">It's.. Miss Famous Mavis</h1>
@@ -121,7 +122,7 @@ const Index = () => {
                 <img 
                   src="/lovable-uploads/1f71c1f7-6e22-4f16-9ad0-7d406eb965fd.png" 
                   alt="Miss Famous Mavis Logo" 
-                  className="w-12 h-12 rounded-full object-cover shadow-sm border-2 border-yellow-300"
+                  className="w-12 h-12 rounded-full object-cover shadow-sm border-2 border-yellow-300 bg-white"
                 />
                 <p className="text-yellow-700 font-medium">
                   © 2025 Miss Famous Mavis | The Digital Twin Experience
@@ -139,3 +140,4 @@ const Index = () => {
 };
 
 export default Index;
+
