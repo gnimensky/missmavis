@@ -76,6 +76,19 @@ const Index = () => {
           </div>
         </div>
 
+        <div className="mb-8 text-center">
+          <div className="bg-gradient-to-r from-yellow-200 via-amber-200 to-yellow-200 rounded-xl shadow-xl p-6 border-2 border-yellow-300">
+            <h3 className="text-xl font-medium text-yellow-900 mb-4">
+              Miss Mavis Favicon
+            </h3>
+            <img 
+              src="https://wwhomnnlzhyikezpulyc.supabase.co/storage/v1/object/public/mavis//favicon.ico"
+              alt="Miss Mavis Favicon" 
+              className="w-16 h-16 mx-auto rounded-lg shadow-lg bg-white p-2"
+            />
+          </div>
+        </div>
+
         <div className="text-center">
           <div className="bg-gradient-to-r from-yellow-200 via-amber-200 to-yellow-200 rounded-xl shadow-xl p-8 md:p-12 border-2 border-yellow-300">
             <h3 className="text-2xl md:text-3xl font-medium text-yellow-900 mb-6">
